@@ -13,7 +13,7 @@
 
 body{
    
-    background-color:#9AD0C2 ;
+    background-color:#001524 ;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     display: flex;
@@ -25,8 +25,8 @@ body{
 button{
     all: unset;
     cursor: pointer;
-    background-color: #2B2B2B;
-    color:white;
+    background-color: #17594A;
+    color:#8EAC50;
     padding: 10px;
     border-radius:20px ;
     margin:10px;
@@ -35,19 +35,25 @@ button{
 .second-section {
     /* width: 80vh;
     height: 70vh; */
-    background-color: yellow;
+    background-color: #445D48;
     padding: 30px;
     /* margin: px; */
     border-radius: 20px;
+    color: #D6CC99;
 
 }
 
 #username{
     text-align: center;
-    background-color: blue;
+    background-color: #607274;
     border-style:none ;
     color:white;
     border-radius: 20px;
     padding: 10px;
     
+}
+
+#username::placeholder{
+    color:#B2B2B2 ;
+    font-weight: 600;
 }
