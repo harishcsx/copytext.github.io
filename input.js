@@ -30,6 +30,8 @@ const inputValue = () => {
 
 const reset = () => {
     document.querySelector("#username").value = null;
+    let text = document.querySelector("#content");
+    text.innerText = "textx - text generator";
 }
 
 let clicked = document.querySelector("#submitk");
